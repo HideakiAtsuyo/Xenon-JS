@@ -1,0 +1,27 @@
+{
+  "name": "xenon-js",
+  "version": "1.0.0",
+  "description": "[Repo original](https://github.com/Bowlingtoolkit/Xenon-Bot-JavaScript-Edition)<br><br>==============================<br><br># Xenon JS<br><br><strong>NON OFFICIEL</strong> Xenon en javascript, un bot pour sauvegarder des serveurs discord et autre.<br><br>### Warning:<br><br>Les droits intellectuels et les crédits de l'édition originale appartiennent à [Magic Bots](https://github.com/Magic-Bots)<br><br>[Bot original(PY)](https://github.com/Magic-Bots/xenon)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node shard.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dany-LF/Xenon-JS.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dany-LF/Xenon-JS/issues"
+  },
+  "homepage": "https://github.com/Dany-LF/Xenon-JS#readme",
+  "dependencies": {
+  	"approximate-number": "^2.0.0",
+    "discord.js": "^11.6.3",
+    "djs-commands": "^1.2.2",
+    "fs": "0.0.1-security",
+    "hastebin-gen": "^2.0.5",
+    "prettytable": "^0.3.1"
+  }
+}
