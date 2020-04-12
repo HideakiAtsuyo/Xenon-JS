@@ -6,13 +6,13 @@
 Modules:
 
 - fs
-- discord.js 11.5.1
+- discord.js 11.6.3
 - djs-commands
 - approximate-number
 - hastebin-gen
 
 ```sh
-npm i discord.js@11.5.1 --save && npm i fs --save && npm i djs-commands --save && npm i approximate-number --save && npm i hastebin-gen --save
+npm i discord.js@11.6.3 --save && npm i fs --save && npm i djs-commands --save && npm i approximate-number --save && npm i hastebin-gen --save
 ```
 
 Bientôt un système de langue + rajout du sharding
