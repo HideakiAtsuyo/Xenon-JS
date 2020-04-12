@@ -14,6 +14,23 @@ client.on("ready", () => {
     client.user.setActivity(`${approx(client.guilds.size)} Guilds | x!help`, {type: "WATCHING"})
 });
 
+//////////SHARD EVENTS//////////
+////////////////////////////////
+client.on('shardDisconnected', (event,shardID) => {
+    console.log('----- ['+shardID+'] déconnecté -----');
+    client.destroy().then(client.login(config.token));
+});
+
+client.on('shardReconnecting', (id) => {
+    console.log('----- [' + id + '] ----- | '+client.user.username+' reconnecting...');
+});
+
+
+client.on('shardResumed', function(replayed,shardID) {
+    console.log('----- ['+ shardID + '] ----- | '+client.user.username+' reconnected!');
+});
+////////////////////////////////
+
 client.on("message", async (message) => {
 
     if(message.author.type === 'bot') return;
