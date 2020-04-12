@@ -10,9 +10,8 @@ Modules:
 - djs-commands
 - approximate-number
 - hastebin-gen
+- prettytable
 
-```sh
-npm i discord.js@11.6.3 --save && npm i fs --save && npm i djs-commands --save && npm i approximate-number --save && npm i hastebin-gen --save
-```
+Vous avez juste besoin de faire: `npm i`
 
 Bientôt un système de langue + rajout du sharding
