@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dany-LF/Xenon-JS.git"
+    "url": "git+https://github.com/HideakiAtsuyo/Xenon-JS.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Dany-LF/Xenon-JS/issues"
   },
-  "homepage": "https://github.com/Dany-LF/Xenon-JS#readme",
+  "homepage": "https://github.com/HideakiAtsuyo/Xenon-JS#readme",
   "dependencies": {
   	"approximate-number": "^2.0.0",
     "discord.js": "^11.6.3",
