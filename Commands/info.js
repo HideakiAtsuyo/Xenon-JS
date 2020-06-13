@@ -13,7 +13,7 @@ module.exports = class info {
          .setTitle("**Xenon**")
          .setThumbnail("https://cdn.discordapp.com/avatars/416358583220043796/8f702ebf579bce2d7a6f0a4419ac5faf.webp?size=1024")
          .setDescription("Server Backups, Templates and more")
-         .addField("Invite", "[Click Here](https://discordapp.com/oauth2/authorize?client_id=416358583220043796&scope=bot&permissions=8)", true)
+         .addField("Invite", "[Click Here](https://discord.com/oauth2/authorize?client_id=416358583220043796&scope=bot&permissions=8)", true)
          .addField("Discord", "[Click Here](https://discord.club/discord)")
          .addField("Prefix", "x!", true)
          .addField("Guilds", client.guilds.size, true)
