@@ -14,8 +14,8 @@ module.exports = class invite {
             .setTitle(`${info} Info`)
             .setDescription(`**Invite Xenon**
 [Xenon](${link})
-[Xenon](https://discordapp.com/api/oauth2/authorize?client_id=524652984425250847&permissions=8&scope=bot) Pro Use \`x!pro\` to get more information.
-[Xenon Turbo](https://discordapp.com/api/oauth2/authorize?client_id=598534174894194719&permissions=8&scope=bot)`)
+[Xenon](https://discord.com/api/oauth2/authorize?client_id=524652984425250847&permissions=8&scope=bot) Pro Use \`x!pro\` to get more information.
+[Xenon Turbo](https://discord.com/api/oauth2/authorize?client_id=598534174894194719&permissions=8&scope=bot)`)
             .setColor("#5DBCD2")
             message.channel.send(inviteEmbed);
             })
